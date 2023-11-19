@@ -157,7 +157,7 @@ function Index() {
 </tr>
     </React.Fragment>
   ))
-:<h2>no user data</h2>}
+:<tr>no user data</tr>}
   </tbody>
 </table>
     </div>

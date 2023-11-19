@@ -40,7 +40,7 @@ if(Object.keys(validationdata(user)).length>0){
   setErorrs(validationdata(user))
 }else{  
   try{
-     const {data}=await axios.post(`https://crud-users-gold.vercel.app/users/${id}`,user);
+     const {data}=await axios.put(`https://crud-users-gold.vercel.app/users/${id}`,user);
  console.log(data);
  if (data.message=='success'){
  toast.success("User Update  successfully")
